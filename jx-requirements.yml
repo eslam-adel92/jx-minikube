@@ -19,8 +19,9 @@ spec:
   - key: staging
   - key: production
   ingress:
-    domain: ""
+    domain: "\U0001F937"
     externalDNS: false
+    kind: ingress
     namespaceSubDomain: -jx.
     tls:
       email: ""
